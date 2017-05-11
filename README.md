@@ -4,6 +4,10 @@ Swift Storyboard Extension Assistant, which allows you to receive Storyboards by
 
 Note. Storyboard file names can have a postfix (_iPad, _iPhone) to separate interfaces across devices.
 
+## Requirements
+
+Language: Swift 2.3  
+
 ## License
 
 UIStoryboard-main is released under the MIT license. See [LICENSE](https://raw.githubusercontent.com/prochol/UIStoryboard-main/master/LICENSE) for details.
