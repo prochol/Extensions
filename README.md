@@ -2,7 +2,7 @@
 
 Swift Storyboard Extension Assistant, which allows you to receive Storyboards by name or main. You can also receive a specific Storyboard for the device by accepting the naming rule for the Storyboard files.
 
-Note. Storyboard file names can have a postfix (_iPad, _iPhone) to separate interfaces across devices.
+**Note:** Storyboard file names can have a postfix (_iPad, _iPhone) to separate interfaces across devices.
 
 ## Requirements
 
