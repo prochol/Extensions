@@ -6,7 +6,7 @@ Note. Storyboard file names can have a postfix (_iPad, _iPhone) to separate inte
 
 ## Requirements
 
-Language: Swift 2.3  
+Language: Swift 3.0  
 
 ## License
 
