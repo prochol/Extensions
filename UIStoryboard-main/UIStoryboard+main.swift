@@ -3,7 +3,7 @@
 //  UIStoryboard-main
 //
 //  Created by prochol on 02.05.17.
-//  Copyright © 2017. All rights reserved.
+//  Copyright © 2017 Prochol. All rights reserved.
 //
 
 import UIKit.UIStoryboard

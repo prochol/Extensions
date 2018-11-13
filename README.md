@@ -8,4 +8,4 @@ Language: Swift 3.0
 
 ## License
 
-Extensions is released under the MIT license. See [LICENSE](https://raw.githubusercontent.com/prochol/UIStoryboard-main/master/LICENSE) for details.
+Extensions is released under the MIT license. See [LICENSE](https://raw.githubusercontent.com/prochol/Extensions/master/LICENSE) for details.
