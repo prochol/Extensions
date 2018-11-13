@@ -1,6 +1,6 @@
 # About UI Categories
 
-Swift Storyboard Extension Assistant, which allows you to receive Storyboards by name or main. You can also receive a specific Storyboard for the device by accepting the naming rule for the Storyboard files.
+Swift UI Extension Assistant, allows you to use extensions for simple initialization of UI components. You can also add subcomponents (borders, protocols, xib, etc.) to restrict code usage.
 
 ## Requirements
 
