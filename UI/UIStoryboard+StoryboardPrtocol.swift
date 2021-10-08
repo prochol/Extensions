@@ -23,3 +23,29 @@ extension UIStoryboard {
         self.init(name: name.filename)
     }
 }
+
+
+extension UIStoryboard {
+    func instantiateViewController<T: UIViewController>(with: T.Type) throws -> T {
+        guard let viewController = self.instantiateViewController(withIdentifier: String(describing: T.self)) as? T else {
+            throw StoryboardError.notFoundViewController(identifier: String(describing: T.self))
+        }
+        
+        return viewController
+    }
+}
+
+
+enum StoryboardError: Error {
+    case notFoundViewController(identifier: String)
+}
+
+
+extension StoryboardError {
+    var localizedDescription: String {
+        switch self {
+        case .notFoundViewController(let identifier):
+            return "Could not dequeue View Controller with identifier: " + identifier
+        }
+    }
+}
